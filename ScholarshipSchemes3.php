@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Career Prediction and Consultance</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="log_in_css.css" >
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-address-card {font-size:200px}
+.fa-phone {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<?php include('navbar.php');?>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-blue w3-center" style="padding:68px 16px 28px 16px">
+  <h1 class="w3-margin w3-jumbo"><strong>Scholarship Schemes</strong></h1>
+ <!-- <p class="w3-xlarge">Template by w3.css</p>-->
+  </header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h3><a href="https://scholarships.gov.in/" target="_blank" class="w3-hover-text-red">1) National Scholarships Portal</a></h3>
+      <p>Students can apply for <b>Scholarships</b>(fresh & renewal) in AY 2022-23  w.e.f 20th july 2022.<br>
+      Central <b>Schemes</b>; UGC/AICTE <b>Schemes</b>; State <b>Schemes</b>.</p><br>
+
+      <h3><a href="https://www.aicte-india.org/bureaus/rifd/Scholarship-Schemes" target="_blank" class="w3-hover-text-red">2) AICTE India</a></h3>
+      <p><b>1.</b> PG SCHOLARSHIP.  <b>2.</b> PRAGATI <b>Scholarship Schemes</b>.  <b>3.</b> SAKSHAM <b>Scholarship Schemes</b>.</p><br>
+      
+      <h3><a href="https://byjus.com/current-affairs/list-government-scholarship-schemes-india/" target="_blank" class="w3-hover-text-red">3) Byjus</a></h3>
+      <p>List of <b>Scholarship schemes</b> in India[State/UTs-wise]. <br>
+      Central-sponsored <b>Scholarship schemes</b> for ST-students.</p><br>
+
+      <h3><a href="https://www.buddy4study.com/article/government-scholarships" target="_blank" class="w3-hover-text-red">4) Government Scholarships- Buddy4Study</a></h3>
+      <p><b>Government Scholarships- </b>The Government of India and the state governments run numerous scholarships for students pursuing their studies at different levels.</p><br>
+
+      <h3><a href="https://www.scholarshipsinindia.com/" target="_blank" class="w3-hover-text-red">5) Scholarships in India 2022</a></h3>
+      <p><b>Scholarships </b>in <b>India</b> in 2022 First Scholarsip website in India for students. List of Fellowships awards and Scholarships.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-14">
+  <h1 class="w3-margin w3-xlarge"><b>Quote of the day:</b> "Education is the most powerful weapon which we can use to change the world."<br></h1>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-44 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
